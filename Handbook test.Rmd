@@ -29,9 +29,19 @@ This database is instrumental in enhancing the quality and reliability of enviro
 ## **1.3 Browser Compatibility and Specifications**
 The UI is optimised to enhance an efficient and standardised user experience across a wide range of web browsers. The following are recommended settings for different browsers to maximise compatibility and functionality:
 
+_Table 1. Setup for browsers_
+
 | Browser | Version | Settings |
 |----------|----------|----------|
 | Google Chrome   | 127.0.6533.120    | Enable JavaScript, allow cookies, update to the latest version for full support. |
 | Mozilla Firefox   | 128.0.3  | Enable JavaScript, allow cookies, update to the latest version.  |
 | Microsoft Edge   | 127.0.2651.105    | Enable JavaScript, allow cookies, ensure that pop-ups are not blocked.   |
 | Safari   | Under testing   | Under testing  |
+||||
+
+# **2	Pre-requisites**
+## **2.1 Introduction to quantitative data (qData)**
+Quantitative data (qData) plays a crucial role in (eco)toxicological testing, serving as the foundation for assessing the potential risks posed by stressors in environment. These data are often derived from controlled laboratory experiments designed to measure the effects of various toxicants on different biological organisms. In (eco)toxicological tests, qData typically includes metrics such as concentration-response relationships, typically derived from (eco)toxicity studies of lethal and sub-lethal effects, and rates of reproduction or growth inhibition. These measurements help determine the toxicity thresholds of substances, which are essential for understanding their potential environmental impact. The accuracy and reliability of metadata and data of such are vital, as they inform environmental hazard and risk assessments, and provide support for regulatory decisions. The data are used to establish safety limits, predict exposure concentrations that may pose risks to ecosystems, ensuring more effective environmental protection strategies. By providing a systematic approach to reporting the effects of toxicants, qData supports the scientific basis for environmental protection and helps ensure that ecosystems remain healthy and resilient.
+
+## **2.2 Introduction data input Template"
+The data-upload Template is a structured tool designed to facilitate the accurate and efficient submission of actual experimental data into the NIVA Risk Assessment Database (RAdb). Users can download the template from the "Download/ Upload data" section and populate it with their actual experimental data. Once completed, the template can be uploaded to the system, allowing the data to be processed and visualized in the "Entered data" section together with the metadata.
