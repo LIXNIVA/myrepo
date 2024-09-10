@@ -15,15 +15,15 @@ knitr::opts_chunk$set(echo = TRUE)
 # **1. Introduction**
 
 ## **1.1 Quantiative data user interface**
-Welcome to the quantitative data (qData) user interface (UI). This "handbook" is designed to guide users through the process of uploading qData from toxicity experiments into the NIVA Risk Assessment Database (RAdb). The RAdb serves as a data repository and FAIRification hub for exposure, hazard and risk assessment data, and are collectively modules of the Source To Outcome Predictor. 
+Welcome to the quantitative data (qData) user interface (UI). This handbook is designed to guide users through the process of uploading qData from toxicity experiments into the NIVA Risk Assessment Database (RAdb). The RAdb serves as a data repository and FAIRification hub for exposure, hazard and risk assessment data, and are collectively modules of the Source To Outcome Predictor. 
 This UI aims to streamline data submission, ensuring that the submitted information is accurate, consistent, and readily accessible for subsequent analysis. This handbook provides comprehensive instructions on how to navigate the UI, upload data, and troubleshoot common issues. It is an essential resource for users contributing data to RAdb or that want to make data more FAIR (Findable, Accessible, Interoperable and reuseable) in other applications.
 Whether you are an experienced user or new to the system, this handbook will help you understand the steps required to efficiently import your data, the significance of each input, and the best practices for ensuring that your submissions meet the required standards by RAdb. We encourage you to use this guide as a reference whenever you interact with the UI, ensuring that the data you provide can be effectively utilized for hazard assessment purposes.
 
 ## **1.2 NIVA Risk Assessment Database (RAdb) and the Source to Outcome Predictor (STOPredictor)**
 The NIVA Risk Assessment Database (NIVA RAdb) is a module-based tool developed by the Norwegian Institute for Water Research (NIVA) to streamline and enhance the process of capturing exposure, hazard and risk assessment-relevant data. This database is informed by principles outlined for the Aggregate Exposure Pathway (AEP) and Adverse Outcome Pathway (AOP) frameworks to compile, integrate, and visualize data across various environmental exposure pathways (rotes) and biological organization levels for chemical and non-chemical stressors. It offers several key features:
-1)	Integration of Data: RAdb compiles exposure and effect data from various biological levels, utilizing frameworks like Aggregate Exposure Pathways (AEP) and Adverse Outcome Pathways (AOP) to organise information consistent with principles of the Source To Outcome Pathway (STOP).
-2)	Risk Identification: The database and STOPredictor aids in identifying toxic endpoints, susceptible species, and risks across multiple environmental contexts.
-3)	Data Visualization: RAdb and the associated user interface (STOPredictor) provides visualization tools to interpret complex data, making it easier to analyse and report findings.
+ - Integration of Data: RAdb compiles exposure and effect data from various biological levels, utilizing frameworks like Aggregate Exposure Pathways (AEP) and Adverse Outcome Pathways (AOP) to organise information consistent with principles of the Source To Outcome Pathway (STOP).
+ -Risk Identification: The database and STOPredictor aids in identifying toxic endpoints, susceptible species, and risks across multiple environmental contexts.
+ - Data Visualization: RAdb and the associated user interface (STOPredictor) provides visualization tools to interpret complex data, making it easier to analyse and report findings.
 This database is instrumental in enhancing the quality and reliability of environmental risk assessments by offering a structured, scientific approach to data management and analysis. For further details, visit the NIVA Risk  Assessment Database (https://www.niva.no/en/radb) and Source to Outcome Predictor (https://www.niva.no/en/source-to-outcome-predictor).
 
 ## **1.3 Browser Compatibility and Specifications**
@@ -32,7 +32,7 @@ The UI is optimised to enhance an efficient and standardised user experience acr
 _Table 1. Setup for browsers_
 
 | Browser | Version | Settings |
-|----------|----------|----------|
+|:----------|:----------|:----------|
 | Google Chrome   | 127.0.6533.120    | Enable JavaScript, allow cookies, update to the latest version for full support. |
 | Mozilla Firefox   | 128.0.3  | Enable JavaScript, allow cookies, update to the latest version.  |
 | Microsoft Edge   | 127.0.2651.105    | Enable JavaScript, allow cookies, ensure that pop-ups are not blocked.   |
@@ -43,5 +43,11 @@ _Table 1. Setup for browsers_
 ## **2.1 Introduction to quantitative data (qData)**
 Quantitative data (qData) plays a crucial role in (eco)toxicological testing, serving as the foundation for assessing the potential risks posed by stressors in environment. These data are often derived from controlled laboratory experiments designed to measure the effects of various toxicants on different biological organisms. In (eco)toxicological tests, qData typically includes metrics such as concentration-response relationships, typically derived from (eco)toxicity studies of lethal and sub-lethal effects, and rates of reproduction or growth inhibition. These measurements help determine the toxicity thresholds of substances, which are essential for understanding their potential environmental impact. The accuracy and reliability of metadata and data of such are vital, as they inform environmental hazard and risk assessments, and provide support for regulatory decisions. The data are used to establish safety limits, predict exposure concentrations that may pose risks to ecosystems, ensuring more effective environmental protection strategies. By providing a systematic approach to reporting the effects of toxicants, qData supports the scientific basis for environmental protection and helps ensure that ecosystems remain healthy and resilient.
 
-## **2.2 Introduction data input Template"
+## **2.2 Introduction data input Template**
 The data-upload Template is a structured tool designed to facilitate the accurate and efficient submission of actual experimental data into the NIVA Risk Assessment Database (RAdb). Users can download the template from the "Download/ Upload data" section and populate it with their actual experimental data. Once completed, the template can be uploaded to the system, allowing the data to be processed and visualized in the "Entered data" section together with the metadata.
+
+# **3 Overview of the GUI layout**
+The GUI is organized into different sections, each serving a specific function to streamline the process of data entry, management, and import. This layout is designed to support a smooth workflow for users, from data selection and entry to final data management and database import and data download.
+
+
+
